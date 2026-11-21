@@ -1,97 +1,83 @@
-// Dynamic Review Synthesis Engine for K.M. Advertising & Publicity Services
-// Generates 5,000+ unique, non-duplicate reviews to bypass Google AI Spam Filters
+// Short & Punchy Dynamic Review Synthesis for K.M. Advertising & Publicity Services
+// Keeps reviews natural, crisp (8-14 words), and non-repetitive
 
 const REVIEW_PARTS = {
     5: {
-        openings: [
-            "K.M. Advertising se recently humne printing ka kaam karwaya tha,",
-            "Got our marketing banners and business cards from K.M. Advertising,",
-            "Hamari company ne corporate gifting aur visiting cards order kiye the,",
-            "Very impressed with the service at K.M. Advertising & Publicity Services,",
-            "Hamari shop ke outdoor flex boards aur publicity material inhi se banwaye,",
-            "Event ke liye urgent same-day printing chahiye thi,",
-            "Best advertising and printing agency in town,",
-            "Ordered bulk brochures and promotional flyers from here,",
-            "Hamare office ke corporate welcome kits aur stationery inhi ne design kiye,",
-            "Kaafi saalon se inhi se apne outdoor hoardings aur banners banwa rahe hain,",
-            "Diwali corporate gift hampers ka bulk order diya tha,",
-            "Visiting cards banwaye the velvet touch aur metallic foil ke sath,",
-            "Exhibition ke liye roll-up standees aur promotional banners order kiye the,",
-            "Showroom inauguration ke liye 3D acrylic LED signage aur banners banwaye,",
-            "Product catalogs 170 GSM glossy art paper par print karwaye the,"
+        // Short Actions & Praises (Part 1)
+        action: [
+            "Awesome quality and timely work,",
+            "Visiting cards print quality bohot premium aayi,",
+            "Flex banners ke colors bilkul sharp aur vibrant hain,",
+            "Corporate gift hampers ki packaging aur finish superb thi,",
+            "Super attractive designs aur great team support,",
+            "Urgent printing order deadline se pehle deliver kar diya,",
+            "Heavy paper GSM aur velvet touch lamination lajawab hai,",
+            "Best printing and advertising service in town,",
+            "Great services aur bohot cooperative staff mila,",
+            "Outdoor publicity banners ki visibility aur material tough hai,",
+            "Wholesale rates par top quality finishing mili,",
+            "Brochures aur catalogs ki print clarity ekdum clear hai,",
+            "Diwali corporate gifts sabhi clients ko bohot pasand aaye,",
+            "3D Acrylic glow signage board bohot elegant lag raha hai,",
+            "Laser engraved metal pens aur customized diaries top class hain,"
         ],
-        qualities: [
-            "print clarity aur color reproduction bilkul sharp aayi.",
-            "heavy paper GSM aur velvet touch lamination bohot premium feel deta hai.",
-            "material weather-proof hai, dhoop aur baarish me bhi colors fade nahi huye.",
-            "turnaround time lajawab tha, promised deadline se pehle delivery mili.",
-            "wholesale rates par top-notch finishing aur clean cutting mili.",
-            "staff bohot cooperative hai aur design modifications patiently handle kiye.",
-            "corporate gift hampers ki packaging aur laser engraving super classy thi.",
-            "acrylic 3D glow signage aur night illumination look luxury de raha hai.",
-            "har single detail aur logo placement 100% accurate thi bina kisi mistake ke.",
-            "customized temperature display bottles aur diaries ki quality outstanding nikli.",
-            "star flex printing ki brightness aur eyelet punching bohot sturdy hai.",
-            "transparent and honest guidance regarding right material and budget.",
-            "awesome quality and timely execution throughout the process.",
-            "super attractive layout banaya graphic designer ne with great team support.",
-            "packaging safe thi, baarish ke mausam me bhi material safely deliver hua."
+
+        // Short Closing / Wrap (Part 2)
+        wrap: [
+            "highly recommended!",
+            "truly satisfied with K.M. Advertising.",
+            "full 5 stars for the work!",
+            "will definitely order again.",
+            "best printing experience.",
+            "definitely recommended for commercial print.",
+            "keep up the great work team!",
+            "100% reliable and professional service.",
+            "super happy with the final result."
         ],
-        closings: [
-            "Highly recommended for all printing and corporate gifting needs!",
-            "Definitely our trusted printing partner from now on.",
-            "Truly 5-star experience, keep up the fantastic work team.",
-            "Will definitely reorder for our next campaign.",
-            "Super attractive finishing aur great team support. Full 5 stars!",
-            "Bohat satisfied hu inke kaam se, strongly recommend karunga.",
-            "Reasonable rates aur professional delivery ke liye best option hai.",
-            "Great services! Looking forward to working with them again.",
-            "Ekdum reliable aur punctual team hai, 100% recommended.",
-            "Thank you K.M. Advertising for the smooth and quick service!"
-        ],
-        directPraises: [
+
+        // Standalone One-Liners (Direct, Crisp & Real)
+        shortPunches: [
             "Awesome quality and timely work.",
             "Super attractive and great team support.",
-            "Great services! Truly impressed with their dedication and quality.",
-            "Awesome quality and timely work. Completely satisfied with the printing results.",
-            "Super attractive designs, excellent finishing and great team support.",
-            "Great services, cooperative staff and very reasonable pricing.",
-            "Best printing quality and fast delivery in town. Highly recommended!",
-            "Very professional staff and top-grade corporate gift items.",
-            "High quality printing at genuine wholesale rates. 5 stars!"
+            "Great services! Truly impressed with the quality.",
+            "Awesome quality and timely work by K.M. Advertising team.",
+            "Super attractive designs and excellent finishing.",
+            "Great services, polite staff and genuine pricing.",
+            "Best printing quality and fast delivery. 5 stars!",
+            "Visiting cards quality is superb, highly recommended.",
+            "Urgent banner print time par mil gaya, thank you!",
+            "Corporate gifts packaging was top notch and professional.",
+            "Very cooperative team and high resolution printing.",
+            "Top class flex printing at reasonable rates.",
+            "Velvet touch visiting cards look very classy and neat.",
+            "Reliable printing press with on-time delivery commitments.",
+            "Great print clarity and rich colors on all banners."
         ]
     },
     4: [
-        "Corporate gift hampers ki packaging aur item quality achhi thi. Sabhi ko pasand aaye.",
-        "Visiting cards print quality is really good, cutting sharp hai. Delivery was almost on time. Recommended.",
-        "Flex printing aur banner quality bohot badiya thi. Kaam fast hua aur rates bhi reasonable hain.",
-        "Good experience with K.M. Advertising. Business cards ka paper standard achha hai aur cutting bhi clean hai.",
-        "Customized coffee mugs aur keychains order kiye the, printing clear aayi hai. Will reorder.",
-        "Pamphlets ki print quality achhi aayi, text crisp hai. Overall smooth service and polite staff.",
-        "Sunboard stickers order kiye the, gumming aur print dono satisfying hain. Will definitely order again.",
-        "Acchi printing service hai. Design me thode modifications the jo inhone patiently update kiye.",
-        "Timely response and reliable print quality for our event banners. Professional team."
+        "Print quality is good and delivered on time. Recommended.",
+        "Flex printing aur banner quality satisfying thi. Reasonable rates.",
+        "Good experience with K.M. Advertising. Clean visiting cards cutting.",
+        "Corporate gifts items achhe the, overall packaging satisfying rahi.",
+        "Prompt proofs over WhatsApp and timely response from team."
     ],
     3: [
-        "Printing quality is decent and satisfactory for general promotional requirements. Timely handover.",
-        "Kaam theek tha, basic visiting cards standard quality ke the. Normal pricing.",
-        "Corporate gifts items were okay, basic branding was clear. Average service.",
-        "Banners were okay, colors were fine. Service was average and acceptable."
+        "Printing quality is decent for general promotional work.",
+        "Standard flex material quality, acceptable delivery time.",
+        "Basic visiting cards print work was fine."
     ],
     2: [
-        "Visiting cards cutting alignment me thoda issue tha, finishing improve karein.",
-        "Print colors expected se thode dull the aur delivery me thoda delay hua.",
-        "Delivery time par nahi mili, coordination improve karein."
+        "Visiting cards cutting alignment me thoda issue tha, improve karein.",
+        "Print colors thode dull the, delivery coordination improve karein."
     ],
     1: [
-        "Print quality bilkul pasand nahi aayi aur commitments follow nahi huye.",
-        "Colors accurate nahi the aur staff response disappointing raha."
+        "Print quality expectations se kam thi aur delivery me delay hua."
     ]
 };
 
 /**
- * Dynamically synthesizes random, non-duplicate reviews on the fly.
- * Over 5,000+ unique permutations possible for 5-star ratings.
+ * Dynamically generates short, punchy (8-14 words) natural reviews.
+ * Combines short one-liners and 2-part crisp phrases.
  */
 function generateDynamicReviews(rating, count = 2) {
     if (rating !== 5) {
@@ -100,20 +86,19 @@ function generateDynamicReviews(rating, count = 2) {
         return shuffled.slice(0, count);
     }
 
-    const { openings, qualities, closings, directPraises } = REVIEW_PARTS[5];
+    const { action, wrap, shortPunches } = REVIEW_PARTS[5];
     const results = [];
     const usedCombos = new Set();
 
     while (results.length < count) {
         let review = "";
-        // 25% chance of a direct punchy real customer feedback
-        if (Math.random() < 0.25 && directPraises.length > 0) {
-            review = directPraises[Math.floor(Math.random() * directPraises.length)];
+        // 50% chance of a crisp 1-liner, 50% chance of a short 2-part phrase
+        if (Math.random() < 0.5 && shortPunches.length > 0) {
+            review = shortPunches[Math.floor(Math.random() * shortPunches.length)];
         } else {
-            const op = openings[Math.floor(Math.random() * openings.length)];
-            const ql = qualities[Math.floor(Math.random() * qualities.length)];
-            const cl = closings[Math.floor(Math.random() * closings.length)];
-            review = `${op} ${ql} ${cl}`;
+            const act = action[Math.floor(Math.random() * action.length)];
+            const wr = wrap[Math.floor(Math.random() * wrap.length)];
+            review = `${act} ${wr}`;
         }
 
         if (!usedCombos.has(review)) {
