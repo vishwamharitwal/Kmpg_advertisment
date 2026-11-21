@@ -1,6 +1,14 @@
 // 240+ Curated Prompts for K.M. Advertising & Publicity Services (Printing, Corporate Gifting & Business Cards)
 const ALL_COMMENTS = {
     5: [
+        // --- Client Highlights & Quick Praises ---
+        "Awesome quality and timely work.",
+        "Super attractive and great team support.",
+        "Great services! Truly impressed with their dedication and quality.",
+        "Awesome quality and timely work. Completely satisfied with the printing results.",
+        "Super attractive designs, excellent finishing and great team support.",
+        "Great services, cooperative staff and very reasonable pricing.",
+
         // --- Corporate Gifting & Executive Hampers ---
         "Diwali ke liye 500 custom corporate gift hampers banwaye the. Packaging box se lekar engraved metal bottle aur dairy tak sab kuch top-quality nikla.",
         "Hamare employees ke liye welcome joining kits inhi se customize karwayi. Branded diary, pen, insulated bottle aur bag ki quality superb hai.",
