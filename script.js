@@ -254,7 +254,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Exact Google Review link provided by user
     const GOOGLE_REVIEW_URL = "https://g.page/r/CfBwzW-LSEE0EBM/review";
-    const WHATSAPP_NUMBER = "918290911347";
+    const WHATSAPP_NUMBER = "918740064577";
 
     function checkSubmitState() {
         if (currentRating > 0 && selectedMessage !== "") {
